@@ -1,0 +1,122 @@
+<div class="move-btn">
+    <a href="#top">
+      <i class="fa fa-arrow-circle-o-up"></i>
+    </a>
+  </div>
+  
+  <div class="part1" id="top" style="background-image: url('assets/image/part41.jpg');">
+    <h1>Pricing</h1>
+    <div class="part1-right">
+      <a href="#"><i class="fa fa-home"></i>Home</a>
+      /
+      <p style="color: #02c366; margin: 0">Pricing</p>
+    </div>
+  </div>
+  <div class="part2">
+    <h1>Our Pricing</h1>
+    <p class="line"></p>
+    <p>Lorem Ipsum is simply dummy text ever sincehar the 1500s, when an unknownshil printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+    <div class="part2-card row">
+        <div class="part2-card-1 col">
+            <h5>Start Up</h5>
+            <h3>$1.99</h3>
+            <p><i class="fa fa-check"></i> Photoshop</p>
+            <p><i class="fa fa-check"></i> HTML5 & CSS 3</p>
+            <p><i class="fa fa-times"></i> Wordpress</p>
+            <p><i class="fa fa-times"></i> Javascript</p>
+            <p style="margin-bottom: 40px;"><i class="fa fa-times"></i> Animation</p>
+            <a href="#">Purchese</a>
+        </div>
+        <div class="part2-card-1 col">
+            <h5>Professional</h5>
+            <h3>$4.99</h3>
+            <p><i class="fa fa-check"></i> Photoshop</p>
+            <p><i class="fa fa-check"></i> HTML5 & CSS 3</p>
+            <p><i class="fa fa-times"></i> Wordpress</p>
+            <p><i class="fa fa-times"></i> Javascript</p>
+            <p style="margin-bottom: 40px;"><i class="fa fa-times"></i> Animation</p>
+            <a href="#">Purchese</a>
+        </div>
+        <div class="part2-card-1 col">
+            <h5>Advanced</h5>
+            <h3>$9.99</h3>
+            <p><i class="fa fa-check"></i> Photoshop</p>
+            <p><i class="fa fa-check"></i> HTML5 & CSS 3</p>
+            <p><i class="fa fa-times"></i> Wordpress</p>
+            <p><i class="fa fa-times"></i> Javascript</p>
+            <p style="margin-bottom: 40px;"><i class="fa fa-times"></i> Animation</p>
+            <a href="#">Purchese</a>
+        </div>
+        <div class="part2-card-1 col">
+            <h5>Premium</h5>
+            <h3>$45.99</h3>
+            <p><i class="fa fa-check"></i> Photoshop</p>
+            <p><i class="fa fa-check"></i> HTML5 & CSS 3</p>
+            <p><i class="fa fa-times"></i> Wordpress</p>
+            <p><i class="fa fa-times"></i> Javascript</p>
+            <p style="margin-bottom: 40px;"><i class="fa fa-times"></i> Animation</p>
+            <a href="#">Purchese</a>
+        </div>
+    </div>
+    <p style="text-align: left; color: gray;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  </div>
+  <div class="part3 row">
+    <div class="col">
+        <h2>Frequently Asked Questions</h2>
+        <p class="line"></p>
+        <ngb-accordion [closeOthers]="true" activeIds="static-1">
+          <ngb-panel id="static-1" >
+            <ng-template ngbPanelTitle>
+              <span><p class="title">Lorem Ipsum is simply dummy text of the printing?</p></span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </ng-template>
+          </ngb-panel>
+          <ngb-panel id="static-2">
+            <ng-template ngbPanelTitle>
+              <span><p class="title">Ipsum is simply dummy text of the printing?</p></span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </ng-template>
+          </ngb-panel>
+          <ngb-panel id="static-3">
+            <ng-template ngbPanelTitle>
+              <span><p class="title">Text of the printing and typesetting industry? </p></span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </ng-template>
+          </ngb-panel>
+        </ngb-accordion>
+        
+    </div>
+    <div class="col">
+        <h2>Best Services Qwilo</h2>
+        <p class="line"></p>
+        <div class="part3-togal">
+          <button (click)="toggle1()" class="active">Retina Ready</button>
+          <button (click)="toggle2()">Free update</button>
+          <button (click)="toggle3()">Useful Section</button>
+          <p *ngIf="showMe1" style="color: gray;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p *ngIf="showMe2" style="color: gray;">Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p *ngIf="showMe3" style="color: gray;">Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+        </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="part4">
+    <div class="part4-1">
+    <h3>Qwilo is the Most <b style="color: black;">Creative</b> Template</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+    </div>
+    <a href="#">Read More</a>
+  </div>
+  
+  <app-footer></app-footer>
+

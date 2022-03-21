@@ -1,0 +1,102 @@
+
+.top-nav{
+    display: flex;
+    background-color: #02d871;
+    color: white;
+}
+.left p{
+    margin-bottom: 0;
+    margin: 10px;
+}
+.right-1 p{
+     margin-bottom: 0;
+    margin: 10px;
+}
+.left{
+    margin-left: 50px;
+    display: flex;
+}
+.right-1{
+    display: flex;
+    margin-left: 500px;
+    margin-top: 0;
+}
+.right-1 a{
+    color: white;
+}
+.right-1 a:hover{
+    color: black;
+}
+
+.nav{
+    display: inline-flex;
+    width: 100%;
+    /* position: fixed; */
+    margin: 0;
+    color: white;
+    background: rgba(34,34,34,.4);
+}
+.logo img{
+    width: 200px;
+    margin: 15px 60px;
+}
+.menu ul{
+    width:800px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 60px;
+}
+.menu ul li{
+    display: inline-flex;
+    /* margin: 20px; */
+}
+.menu button{
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    background:  rgb(173 171 171 / 40%);
+    border-radius: 5px;
+}
+.menu button:hover{
+    background-color: #02d871;
+}
+.menu button.active{
+    background-color: #02d871;
+}
+.right{
+    margin-top: 10px;
+}
+.right ul{
+    padding: 0;
+}
+.right li{
+    display: inline-flex;
+    margin: 18px;
+}
+.right a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+.cart1{
+    background: #fff;
+    width: 300px;
+    border-radius: 3px;
+    padding: 15px;
+    position: absolute;
+    right: 20px;
+    box-shadow: 0 0 30px 0 rgb(0 0 0 / 10%);
+    transition: all .3s ease-in-out;
+}
+.cart2-img img{
+    width: 40px;
+    height: auto;
+}
+.cart2-price p{
+    width: 200px;
+}
+
+
